@@ -1,0 +1,96 @@
+Room
+Booking
+Inventory
+Hotel
+
+ContactInfo
+user
+payment
+guest
+BookingGuest
+hey b
+kmay@LAPTOP-46LLVL47 MINGW64 ~/OneDrive/Desktop/GitLearning (master)
+$ git config --global user.email "mkmayank1999@gmail.com"
+
+mkmay@LAPTOP-46LLVL47 MINGW64 ~/OneDrive/Desktop/GitLearning (master)
+$ git config --global user.name - "Mayank"
+
+mkmay@LAPTOP-46LLVL47 MINGW64 ~/OneDrive/Desktop/GitLearning (master)
+$ git commit -m"main"
+On branch master
+nothing to commit, working tree clean
+
+mkmay@LAPTOP-46LLVL47 MINGW64 ~/OneDrive/Desktop/GitLearning (master)
+$ git branch
+* master
+
+mkmay@LAPTOP-46LLVL47 MINGW64 ~/OneDrive/Desktop/GitLearning (master)
+$ git branch feature
+
+mkmay@LAPTOP-46LLVL47 MINGW64 ~/OneDrive/Desktop/GitLearning (master)
+$ git branch
+  feature
+* master
+
+mkmay@LAPTOP-46LLVL47 MINGW64 ~/OneDrive/Desktop/GitLearning (master)
+$ git switch feature
+Switched to branch 'feature'
+
+mkmay@LAPTOP-46LLVL47 MINGW64 ~/OneDrive/Desktop/GitLearning (feature)
+$ git switch -
+Switched to branch 'master'
+
+mkmay@LAPTOP-46LLVL47 MINGW64 ~/OneDrive/Desktop/GitLearning (master)
+$ git branch
+  feature
+* master
+
+mkmay@LAPTOP-46LLVL47 MINGW64 ~/OneDrive/Desktop/GitLearning (master)
+$ git checkout feature
+Switched to branch 'feature'
+
+mkmay@LAPTOP-46LLVL47 MINGW64 ~/OneDrive/Desktop/GitLearning (feature)
+$ git switch -c test
+Switched to a new branch 'test'
+
+mkmay@LAPTOP-46LLVL47 MINGW64 ~/OneDrive/Desktop/GitLearning (test)
+$ git checkout -b anotherTest
+Switched to a new branch 'anotherTest'
+
+mkmay@LAPTOP-46LLVL47 MINGW64 ~/OneDrive/Desktop/GitLearning (anotherTest)
+$ git branch
+* anotherTest
+  feature
+  master
+  test
+
+mkmay@LAPTOP-46LLVL47 MINGW64 ~/OneDrive/Desktop/GitLearning (anotherTest)
+$ git checkout master
+Switched to branch 'master'
+
+mkmay@LAPTOP-46LLVL47 MINGW64 ~/OneDrive/Desktop/GitLearning (master)
+$ git branch -d anotherTest
+Deleted branch anotherTest (was 3b1c8a4).
+
+mkmay@LAPTOP-46LLVL47 MINGW64 ~/OneDrive/Desktop/GitLearning (master)
+$ git branch
+  feature
+* master
+  test
+
+mkmay@LAPTOP-46LLVL47 MINGW64 ~/OneDrive/Desktop/GitLearning (master)
+$ ls
+home.html  index.html  login.html  movies.html
+
+mkmay@LAPTOP-46LLVL47 MINGW64 ~/OneDrive/Desktop/GitLearning (master)
+$ vim ho
+
+mkmay@LAPTOP-46LLVL47 MINGW64 ~/OneDrive/Desktop/GitLearning (master)
+$ vim home.hrml
+
+mkmay@LAPTOP-46LLVL47 MINGW64 ~/OneDrive/Desktop/GitLearning (master)
+$
+
+
+
+
